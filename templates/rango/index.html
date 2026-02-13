@@ -11,12 +11,14 @@ Index
 
 <div>
     {% if user.is_authenticated %}
-        howdy {{ user.username }}! <br />
+        howdy {{ user.username }}!
     {% else %}
-        hey there partner! <br />
+        hey there partner!
     {% endif %}
+    <br />
     <strong>{{ boldmessage }}</strong>
 </div>
+
 
 <hr />
 
@@ -55,4 +57,5 @@ Index
 <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
 
 {% endblock %}
+
 
