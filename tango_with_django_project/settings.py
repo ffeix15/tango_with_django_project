@@ -133,3 +133,4 @@ STATICFILES_DIRS = [
 ]
 
 
+LOGIN_URL = 'rango:login'
